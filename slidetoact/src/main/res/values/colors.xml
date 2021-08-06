@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="slidetoact_white">#FFFFFF</color>
+    <color name="slidetoact_defaultAccent">#FF4081</color>
+</resources>
