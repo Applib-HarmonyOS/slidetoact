@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <ScrollView
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:above="$id:btn_reset_slider"
+        ohos:padding="8vp"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:id="$+id:slide_container"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:orientation="vertical">
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="6vp"
+                ohos:sliderHeight="32vp"
+                ohos:text="$string:txt_slider_height_32" />
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="6vp"
+                ohos:sliderHeight="40vp"
+                ohos:text="$string:txt_slider_height_40" />
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="6vp"
+                ohos:sliderHeight="48vp"
+                ohos:text="$string:txt_slider_height_48" />
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="6vp"
+                ohos:sliderHeight="52vp"
+                ohos:text="$string:txt_slider_height_52" />
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="6vp"
+                ohos:sliderHeight="64vp"
+                ohos:text="$string:txt_slider_height_64" />
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="6vp"
+                ohos:sliderHeight="80vp"
+                ohos:text="$string:txt_slider_height_80" />
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="6vp"
+                ohos:sliderHeight="92vp"
+                ohos:text="$string:txt_slider_height_92" />
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="6vp"
+                ohos:sliderHeight="120vp"
+                ohos:text="$string:txt_slider_height_120" />
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="6vp"
+                ohos:sliderHeight="160vp"
+                ohos:text="$string:txt_slider_height_160" />
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="6vp"
+                ohos:sliderHeight="200vp"
+                ohos:text="$string:txt_slider_height_200" />
+
+        </DirectionalLayout>
+    </ScrollView>
+
+    <Button
+        ohos:id="$+id:btn_reset_slider"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:margin="4vp"
+        ohos:padding="8vp"
+        ohos:background_element="$ohos:color:id_color_activated_start_dark"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:btn_reset_slider"
+        ohos:text_size="14fp"
+        />
+
+</DependentLayout>

@@ -1,0 +1,12 @@
+{
+  "color": [
+    {
+      "name": "slidetoact_white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "slidetoact_defaultAccent",
+      "value": "#FF4081"
+    }
+  ]
+}
