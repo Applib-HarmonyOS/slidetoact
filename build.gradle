@@ -65,5 +65,6 @@ sonarqube {
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.sources", "entry,slidetoact"
         property "sonar.java.binaries", "entry/build,slidetoact/build"
+        property "sonar.java.checkstyle.reportPaths", "build/reports/checkstyle/checkstyle.xml"
     }
 }
