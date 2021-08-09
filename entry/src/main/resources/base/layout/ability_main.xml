@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:above="$id:btn_reset_slider"
+        ohos:padding="8vp"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical">
+
+            <Text
+                ohos:id="$+id:welcome_text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:margin="8vp"
+                ohos:layout_alignment="center"
+                ohos:text_size="20fp"
+                ohos:text="$string:welcome"/>
+
+            <com.ncorti.slidetoact.SlideToActView
+                ohos:id="$+id:welcome_slider"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="$string:sample_title" />
+
+            <Text
+                ohos:width="match_parent"
+                ohos:height="match_content"
+                ohos:margin="8vp"
+                ohos:text_alignment="center"
+                ohos:text_size="14fp"
+                ohos:multiple_lines="true"
+                ohos:text="$string:welcome_body" />
+
+            <Button
+                ohos:id="$+id:button_area_margin"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:area_margin" />
+
+            <Button
+                ohos:id="$+id:button_icon_margin"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:icon_margin" />
+
+            <Button
+                ohos:id="$+id:button_colors"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:colors" />
+
+            <Button
+                ohos:id="$+id:button_border_radius"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:border_radius" />
+
+            <Button
+                ohos:id="$+id:button_text_size"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:text_size" />
+
+            <Button
+                ohos:id="$+id:button_slider_dimension"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:slider_dimension" />
+
+            <Button
+                ohos:id="$+id:button_event_callbacks"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:event_callback" />
+
+            <Button
+                ohos:id="$+id:button_locked_slider"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:locked_slider" />
+
+            <Button
+                ohos:id="$+id:button_custom_icon"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:custom_icon" />
+
+            <Button
+                ohos:id="$+id:button_reversed_slider"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:reversed_slider" />
+
+            <Button
+                ohos:id="$+id:button_animation_duration"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:animation_duration" />
+
+            <Button
+                ohos:id="$+id:button_bump_vibration"
+                ohos:width="140vp"
+                ohos:height="match_content"
+                ohos:margin="4vp"
+                ohos:padding="8vp"
+                ohos:background_element="$ohos:color:id_color_activated_start_dark"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_size="14fp"
+                ohos:text="$string:bump_vibration" />
+
+        </DirectionalLayout>
+
+    </ScrollView>
+
+    <Button
+        ohos:id="$+id:btn_reset_slider"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:margin="4vp"
+        ohos:padding="8vp"
+        ohos:background_element="$ohos:color:id_color_activated_start_dark"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:btn_reset_slider"
+        ohos:text_size="14fp"
+        />
+
+</DependentLayout>

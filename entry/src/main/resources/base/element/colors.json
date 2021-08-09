@@ -1,0 +1,49 @@
+{
+  "color": [
+    {
+      "name": "slidetoact_white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "slidetoact_defaultAccent",
+      "value": "#FF4081"
+    },
+    {
+      "name": "md_red_A200",
+      "value": "#FF5252"
+    },
+    {
+      "name": "md_purple_A200",
+      "value": "#E040FB"
+    },
+    {
+      "name": "md_indigo_A200",
+      "value": "#536DFE"
+    },
+    {
+      "name": "md_deep_orange_A200",
+      "value": "#FF6E40"
+    },{
+      "name": "md_amber_A200",
+      "value": "#FFD740"
+    },{
+      "name": "md_teal_A200",
+      "value": "#64FFDA"
+    },{
+      "name": "md_green_A200",
+      "value": "#69F0AE"
+    },
+    {
+      "name": "md_grey_800",
+      "value": "#424242"
+    },
+    {
+      "name": "md_grey_900",
+      "value": "#212121"
+    },
+    {
+      "name": "md_white_1000",
+      "value": "#ffffff"
+    }
+  ]
+}

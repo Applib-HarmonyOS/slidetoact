@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:id="$+id:slide_container"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:above="$id:btn_reset_slider"
+        ohos:orientation="vertical">
+
+        <com.ncorti.slidetoact.SlideToActView
+            ohos:id="$+id:event_slider"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:margin="6vp"
+            ohos:text="$string:txt_test_me_and_read_log" />
+
+        <Text
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:margin="8vp"
+            ohos:text_alignment="center"
+            ohos:text="$string:event_log"
+            ohos:text_size="24fp"
+            ohos:text_font="bold" />
+
+        <Text
+            ohos:id="$+id:event_log"
+            ohos:width="match_parent"
+            ohos:height="match_parent"
+            ohos:left_margin="8vp"
+            ohos:right_margin="8vp"
+            ohos:text_alignment="bottom"
+            ohos:multiple_lines="true"
+            ohos:text_size="14fp" />
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:btn_reset_slider"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:margin="4vp"
+        ohos:padding="8vp"
+        ohos:background_element="$ohos:color:id_color_activated_start_dark"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:btn_reset_slider"
+        ohos:text_size="14fp"
+        />
+
+</DependentLayout>

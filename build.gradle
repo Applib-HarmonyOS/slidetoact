@@ -1,36 +1,70 @@
-apply plugin: 'com.android.application'
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+apply plugin: 'org.sonarqube'
+apply plugin: 'checkstyle'
 
-android {
-    compileSdkVersion 29
-
+ohos {
+    compileSdkVersion 5
     defaultConfig {
-        applicationId "com.ncorti.slidetoact.example"
-        minSdkVersion 14
-        targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        compatibleSdkVersion 5
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+}
+	
+buildscript {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
         }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+		jcenter()
     }
-    lintOptions {
-        abortOnError false
+    dependencies {
+        classpath 'com.huawei.ohos:hap:2.4.2.7'
+        classpath 'com.huawei.ohos:decctest:1.0.0.7'
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:3.3"
     }
 }
 
-dependencies {
-    implementation project(':slidetoact')
+allprojects {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+        maven {
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
+        }
+		jcenter()
+    }
 
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'com.google.android.material:material:1.0.0'
+    task checkstyle(type: Checkstyle) {
+        showViolations = true
+        configFile file("config/checkstyle.xml")
 
-    testImplementation "junit:junit:4.12"
+        source 'entry/src/main/java'
+        source 'slidetoact/src/main/java'
+        include '**/*.java'
 
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    androidTestImplementation 'androidx.test:rules:1.2.0'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+        // empty classpath
+        classpath = files()
+    }
+}
+
+checkstyle {
+    toolVersion "8.43"
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "applibgroup_slideToActView"
+        property "sonar.organization", "applibgroup"
+        property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.sources", "entry,slidetoact"
+        property "sonar.java.binaries", "entry/build,slidetoact/build"
+        property "sonar.java.checkstyle.reportPaths", "build/reports/checkstyle/checkstyle.xml"
+    }
 }

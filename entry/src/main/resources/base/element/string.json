@@ -1,0 +1,352 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "SlideToAct"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "sample_title",
+      "value": "Sample SlideToActView"
+    },
+    {
+      "name": "welcome",
+      "value": "Welcome \uD83D\uDE01"
+    },
+    {
+      "name": "area_margin",
+      "value": "area margin"
+    },
+    {
+      "name": "icon_margin",
+      "value": "icon margin"
+    },
+    {
+      "name": "colors",
+      "value": "Colors"
+    },
+    {
+      "name": "border_radius",
+      "value": "Border Radius"
+    },
+    {
+      "name": "elevation",
+      "value": "Elevation"
+    },
+    {
+      "name": "text_size",
+      "value": "Text Size"
+    },
+    {
+      "name": "slider_dimension",
+      "value": "Slider Dimension"
+    },
+    {
+      "name": "event_callback",
+      "value": "Event Callback"
+    },
+    {
+      "name": "locked_slider",
+      "value": "Locked Slider"
+    },
+    {
+      "name": "custom_icon",
+      "value": "Custom Icon"
+    },
+    {
+      "name": "reversed_slider",
+      "value": "Reversed Slider"
+    },
+    {
+      "name": "animation_duration",
+      "value": "Animation duration"
+    },
+    {
+      "name": "bump_vibration",
+      "value": "Bump Vibration"
+    },
+    {
+      "name": "event_log",
+      "value": "Event Log"
+    },
+    {
+      "name": "welcome_body",
+      "value": "Press the following buttons to checkout different SlideToActView and understand each parameter. You can reset the sliders pressing the Reset Slider button at the bottom. Enjoy :)"
+    },
+    {
+      "name": "use_lock_icon",
+      "value": "Use lock icon"
+    },
+    {
+      "name": "use_cloud_icon",
+      "value": "Use Cloud icon"
+    },
+    {
+      "name": "complete_custom_icon",
+      "value": "Complete custom icon"
+    },
+    {
+      "name": "btn_reset_slider",
+      "value": "Reset Slider"
+    },
+    {
+      "name": "txt_anim_duration_2000",
+      "value": "Animation Duration 2000"
+    },
+    {
+      "name": "txt_anim_duration_1000",
+      "value": "Animation Duration 1000"
+    },
+    {
+      "name": "txt_anim_duration_500",
+      "value": "Animation Duration 500"
+    },
+    {
+      "name": "txt_anim_duration_250",
+      "value": "Animation Duration 250"
+    },
+    {
+      "name": "txt_anim_duration_125",
+      "value": "Animation Duration 125"
+    },
+    {
+      "name": "txt_anim_duration_62",
+      "value": "Animation Duration 62"
+    },
+    {
+      "name": "txt_anim_duration_0",
+      "value": "Animation Duration 0"
+    },
+    {
+      "name": "txt_area_margin_0",
+      "value": "Area Margin 0vp"
+    },
+    {
+      "name": "txt_area_margin_4",
+      "value": "Area Margin 4vp"
+    },
+    {
+      "name": "txt_area_margin_8",
+      "value": "Area Margin 8vp"
+    },
+    {
+      "name": "txt_area_margin_12",
+      "value": "Area Margin 12vp"
+    },
+    {
+      "name": "txt_area_margin_20",
+      "value": "Area Margin 20vp"
+    },
+    {
+      "name": "txt_area_margin_24",
+      "value": "Area Margin 24vp"
+    },
+    {
+      "name": "txt_area_margin_28",
+      "value": "Area Margin 28vp"
+    },
+    {
+      "name": "txt_border_radius_not_set",
+      "value": "Border Radius Not Set"
+    },
+    {
+      "name": "txt_border_radius_0",
+      "value": "Border Radius 0vp"
+    },
+    {
+      "name": "txt_border_radius_2",
+      "value": "Border Radius 2vp"
+    },
+    {
+      "name": "txt_border_radius_4",
+      "value": "Border Radius 4vp"
+    },
+    {
+      "name": "txt_border_radius_8",
+      "value": "Border Radius 8vp"
+    },
+    {
+      "name": "txt_border_radius_12",
+      "value": "Border Radius 12vp"
+    },
+    {
+      "name": "txt_border_radius_20",
+      "value": "Border Radius 20vp"
+    },
+    {
+      "name": "txt_border_radius_24",
+      "value": "Border Radius 24vp"
+    },
+    {
+      "name": "txt_border_radius_28",
+      "value": "Border Radius 28vp"
+    },
+    {
+      "name": "txt_icon_margin_0",
+      "value": "Icon Margin 0vp"
+    },
+    {
+      "name": "txt_icon_margin_4",
+      "value": "Icon Margin 4vp"
+    },
+    {
+      "name": "txt_icon_margin_8",
+      "value": "Icon Margin 8vp"
+    },
+    {
+      "name": "txt_icon_margin_16",
+      "value": "Icon Margin 16vp"
+    },
+    {
+      "name": "txt_icon_margin_20",
+      "value": "Icon Margin 20vp"
+    },
+    {
+      "name": "txt_icon_margin_24",
+      "value": "Icon Margin 24vp"
+    },
+    {
+      "name": "txt_icon_margin_28",
+      "value": "Icon Margin 28vp"
+    },
+    {
+      "name": "txt_bump_vibration_30",
+      "value": "Bump vibration 30"
+    },
+    {
+      "name": "txt_bump_vibration_50",
+      "value": "Bump vibration 50"
+    },
+    {
+      "name": "txt_bump_vibration_100",
+      "value": "Bump vibration 100"
+    },
+    {
+      "name": "txt_bump_vibration_130",
+      "value": "Bump vibration 130"
+    },
+    {
+      "name": "txt_bump_vibration_150",
+      "value": "Bump vibration 150"
+    },
+    {
+      "name": "txt_bump_vibration_200",
+      "value": "Icon Margin 200"
+    },
+    {
+      "name": "txt_accent_red",
+      "value": "Accent Red"
+    },
+    {
+      "name": "txt_accent_purple",
+      "value": "Accent Purple"
+    },
+    {
+      "name": "txt_accent_indigo",
+      "value": "Accent Indigo"
+    },
+    {
+      "name": "txt_accent_deep_orange",
+      "value": "Accent Deep Orange"
+    },
+    {
+      "name": "txt_accent_amber_grey_800",
+      "value": "Accent Amber - Grey 800"
+    },
+    {
+      "name": "txt_accent_teal_grey_800",
+      "value": "Accent Teal - Grey 800"
+    },
+    {
+      "name": "txt_accent_green_grey_800",
+      "value": "Accent Green - Grey 800"
+    },
+    {
+      "name": "txt_grey_900_white",
+      "value": "Grey 900 - White"
+    },
+    {
+      "name": "txt_white_grey_900",
+      "value": "White - Grey 900"
+    },
+    {
+      "name": "txt_custom_icon",
+      "value": "Custom Icon"
+    },
+    {
+      "name": "txt_test_me_and_read_log",
+      "value": "Test me and read the log"
+    },
+    {
+      "name": "txt_locked_slider",
+      "value": "Locked Slider"
+    },
+    {
+      "name": "txt_reversed_slider",
+      "value": "Reversed Slider"
+    },
+    {
+      "name": "txt_slider_height_32",
+      "value": "Slider Height 32vp"
+    },
+    {
+      "name": "txt_slider_height_40",
+      "value": "Slider Height 40vp"
+    },
+    {
+      "name": "txt_slider_height_48",
+      "value": "Slider Height 48vp"
+    },
+    {
+      "name": "txt_slider_height_52",
+      "value": "Slider Height 52vp"
+    },
+    {
+      "name": "txt_slider_height_64",
+      "value": "Slider Height 64vp"
+    },
+    {
+      "name": "txt_slider_height_80",
+      "value": "Slider Height 80vp"
+    },
+    {
+      "name": "txt_slider_height_92",
+      "value": "Slider Height 92vp"
+    },
+    {
+      "name": "txt_slider_height_120",
+      "value": "Slider Height 120vp"
+    },
+    {
+      "name": "txt_slider_height_160",
+      "value": "Slider Height 160vp"
+    },
+    {
+      "name": "txt_slider_height_200",
+      "value": "Slider Height 200vp"
+    },
+    {
+      "name": "txt_text_size_12",
+      "value": "TextSize 12fp"
+    },
+    {
+      "name": "txt_text_size_14",
+      "value": "TextSize 14fp"
+    },
+    {
+      "name": "txt_text_size_16",
+      "value": "TextSize 16fp"
+    },
+    {
+      "name": "txt_text_size_20",
+      "value": "TextSize 20fp"
+    }
+  ]
+}
