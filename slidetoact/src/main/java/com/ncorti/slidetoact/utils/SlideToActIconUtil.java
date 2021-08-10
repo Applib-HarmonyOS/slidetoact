@@ -39,17 +39,17 @@ public class SlideToActIconUtil {
      * @param color target color.
      */
     public static void setIconColor(Element icon, Color color) {
-        int iColor = color.getValue();
+        int colorValue = color.getValue();
 
-        int red   = (iColor & 0xFF0000) / 0xFFFF;
-        int green = (iColor & 0xFF00) / 0xFF;
-        int blue  = iColor & 0xFF;
+        int red   = (colorValue & 0xFF0000) / 0xFFFF;
+        int green = (colorValue & 0xFF00) / 0xFF;
+        int blue  = colorValue & 0xFF;
 
         float[] matrix = {
-                0, 0, 0, 0, red,
-                0, 0, 0, 0, green,
-                0, 0, 0, 0, blue,
-                0, 0, 0, 1, 0 };
+            0, 0, 0, 0, red,
+            0, 0, 0, 0, green,
+            0, 0, 0, 0, blue,
+            0, 0, 0, 1, 0 };
 
         ColorMatrix colorMatrix = new ColorMatrix();
         colorMatrix.setMatrix(matrix);
