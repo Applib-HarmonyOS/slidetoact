@@ -17,14 +17,15 @@
 
 package com.ncorti.slidetoact.example.slice;
 
-import com.ncorti.slidetoact.SlideToActView;
-import com.ncorti.slidetoact.example.MainAbility;
-import com.ncorti.slidetoact.example.ResourceTable;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
 import ohos.aafwk.content.Operation;
 import ohos.agp.components.Button;
 import ohos.agp.components.Component;
+import com.ncorti.slidetoact.SlideToActView;
+import com.ncorti.slidetoact.example.MainAbility;
+import com.ncorti.slidetoact.example.ResourceTable;
+
 
 /**
  * MainAbilitySlice.

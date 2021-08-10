@@ -1,11 +1,5 @@
 package com.ncorti.slidetoact;
 
-import com.ncorti.slidetoact.utils.AnimationUtils;
-import com.ncorti.slidetoact.utils.LogUtil;
-import com.ncorti.slidetoact.utils.SlideToActIconUtil;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
 import ohos.agp.animation.Animator;
 import ohos.agp.animation.AnimatorGroup;
 import ohos.agp.animation.AnimatorValue;
@@ -21,6 +15,12 @@ import ohos.agp.utils.Color;
 import ohos.app.Context;
 import ohos.multimodalinput.event.TouchEvent;
 import ohos.vibrator.agent.VibratorAgent;
+import com.ncorti.slidetoact.utils.AnimationUtils;
+import com.ncorti.slidetoact.utils.LogUtil;
+import com.ncorti.slidetoact.utils.SlideToActIconUtil;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 /**
  *  Class representing the custom view, SlideToActView.
@@ -395,6 +395,12 @@ public class SlideToActView extends Component
         return true;
     }
 
+    /**
+     * Measure dimension from estimate dimension.
+     * @param defaultSize Default width/height.
+     * @param measureSpec estimate width/height.
+     * @return Measured dimension.
+     */
     private int measureDimension(int defaultSize, int measureSpec) {
         int result;
         int specMode = EstimateSpec.getMode(measureSpec);
@@ -574,6 +580,11 @@ public class SlideToActView extends Component
         return false;
     }
 
+    /**
+     * Handle down event.
+     * @param x x-coordinate.
+     * @param y y-coordinate.
+     */
     private void eventPointDown(float x, float y) {
         if (checkInsideButton(x, y)) {
             mFlagMoving = true;
@@ -586,6 +597,9 @@ public class SlideToActView extends Component
         }
     }
 
+    /**
+     * Handle up event.
+     */
     private void eventPointUp() {
         if ((mPosn > 0 && sliderLocked)
                 || (mPosn > 0 && mPositionPerc < GRACE_VALUE)
@@ -612,10 +626,14 @@ public class SlideToActView extends Component
         mFlagMoving = false;
     }
 
+    /**
+     * Handle move event.
+     * @param x x-coordinate.
+     */
     private void eventPointMove(float x) {
         if (mFlagMoving) {
             // True if the cursor was not at the end position before this event
-            boolean wasIncomplete = mPositionPerc < 1f;
+            final boolean wasIncomplete = mPositionPerc < 1f;
 
             float diffX = x - mLastX;
             mLastX = x;
@@ -669,6 +687,10 @@ public class SlideToActView extends Component
         }
     }
 
+    /**
+     * Update position of slider and mean while update position percent, position percent invers.
+     * @param position current position of slider.
+     */
     private void updatePosition(int position) {
         this.mPosn = position;
         if (mAreaWidth - mAreaHeight == 0) {
@@ -684,6 +706,10 @@ public class SlideToActView extends Component
         updateEffectivePosition(mPosn);
     }
 
+    /**
+     * Update effective position.
+     * @param effectivePosition The effective position.
+     */
     private void updateEffectivePosition(int effectivePosition) {
         if (sliderReversed) {
             this.mEffectivePosition = (mAreaWidth - mAreaHeight) - effectivePosition;

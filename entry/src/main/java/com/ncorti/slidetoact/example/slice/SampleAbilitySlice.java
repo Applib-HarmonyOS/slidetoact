@@ -17,13 +17,6 @@
 
 package com.ncorti.slidetoact.example.slice;
 
-import com.ncorti.slidetoact.SlideToActView;
-import com.ncorti.slidetoact.example.ResourceTable;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
 import ohos.agp.components.Component;
@@ -32,6 +25,13 @@ import ohos.agp.components.Text;
 import ohos.agp.components.element.PixelMapElement;
 import ohos.agp.components.element.VectorElement;
 import ohos.global.resource.NotExistException;
+import com.ncorti.slidetoact.SlideToActView;
+import com.ncorti.slidetoact.example.ResourceTable;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 /**
  * SampleAbilitySlice.
