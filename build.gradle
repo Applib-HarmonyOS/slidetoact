@@ -43,7 +43,7 @@ allprojects {
 
     task checkstyle(type: Checkstyle) {
         showViolations = true
-        configFile file("config/checkstyle.xml")
+        configFile file("huawei/config/checkstyle.xml")
 
         source 'entry/src/main/java'
         source 'slidetoact/src/main/java'
@@ -60,7 +60,7 @@ checkstyle {
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "applibgroup_slideToAct"
+        property "sonar.projectKey", "applibgroup_slidetoact"
         property "sonar.organization", "applibgroup"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.sources", "entry,slidetoact"
