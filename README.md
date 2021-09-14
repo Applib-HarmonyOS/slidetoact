@@ -1,4 +1,4 @@
-# Slide To Act
+# Slide To Act 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=applibgroup_slidetoact&metric=alert_status)](https://sonarcloud.io/dashboard?id=applibgroup_slidetoact) [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 A simple *Slide to Unlock* **Material** widget for **Harmony os**, written in [**Java**].
