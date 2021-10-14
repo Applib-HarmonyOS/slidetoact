@@ -1,7 +1,7 @@
 # Slide To Act 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=applibgroup_slidetoact&metric=alert_status)](https://sonarcloud.io/dashboard?id=applibgroup_slidetoact) [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
-A simple *Slide to Unlock* **Material** widget for **Harmony os**, written in [**Java**].
+A simple *Slide to Unlock* component for **HarmonyOS**, written in [**Java**].
 
 <p align="center">
   <img src="assets/slidetoact.gif" alt="sample-slidetoact gif"/>
@@ -26,12 +26,7 @@ A simple *Slide to Unlock* **Material** widget for **Harmony os**, written in [*
         * [``rotateIcon``](#rotateIcon)
     * [Event callbacks](#event-callbacks)
 * [Future Work](#future-work)
-* [Demo](#demo-)
-* [Building/Testing](#buildingtesting-)
-    * [CircleCI](#circleci-)
-    * [TravisCI](#travisci-)
-    * [Building locally](#building-locally)
-    * [Testing](#testing)
+* [Testing](#testing-)
 * [Contributing](#contributing-)
 * [Honorable Mentions](#honorable-mentions-)
 * [License](#license-)
@@ -274,55 +269,10 @@ You can try the **Event Callbacks** in the [Demo app](#demo) to better understan
 
 3. Adding Text style and custom text feature.
 
-## Demo 📲
 
-Wonna see the widget in action? Just give a try to the **Example App**, it's inside the [**example**](example/) folder. 
+## Testing ⚙️
 
-Otherwise, you can just [download the **APK** from a CircleCI build](https://45-58338361-gh.circle-artifacts.com/0/tmp/circle-artifacts.uQdJ7rB/outputs/apk/example-debug.apk), and try it on a real device/emulator. 
-
-<p align="center">
-  <img src="assets/example_app.gif" alt="example_app gif"/>
-</p>
-
-## Building/Testing ⚙️
-
-### CircleCI [![CircleCI](https://circleci.com/gh/cortinico/slidetoact/tree/master.svg?style=shield)](https://circleci.com/gh/cortinico/slidetoact/tree/master)
-
-This projects is built with [**Circle CI**](https://circleci.com/gh/cortinico/slidetoact/). The CI environment takes care of building the library .AAR, the example app and to run the **Espresso** tests. **Artifacts** are exposed at the end of every build (both the .AAR and the .APK of the example app).
-
-### TravisCI [![Build Status](https://travis-ci.org/cortinico/slidetoact.svg?branch=master)](https://travis-ci.org/cortinico/slidetoact)
-
-[**TravisCI**](https://travis-ci.org/cortinico/slidetoact) builds are also running but they are considered **Legacy**. I'm probably going to dismiss it soon or later.
-
-### Building locally
-
-Before building, make sure you have the following **updated components** from the Android SDK:
-
-* tools
-* platform-tools
-* build-tools-25.0.3
-* android-25
-* extra-android-support
-* extra-android-m2repository
-* extra-google-m2repository
-
-Then just clone the repo locally and build the .AAR with the following command:
-
-```bash
-git clone git@github.com:cortinico/slidetoact.git
-cd slidetoact/
-./gradlew slidetoact:assemble
-```
-
-The assembled .AAR will be inside the **slidetoact/build/outputs/aar** folder.
-
-### Testing
-
-Once you're able to build successfully, you can run Espresso tests locally with the following command.
-
-```bash
-./gradlew clean build connectedCheck 
-```
+Once you're able to build successfully, you can run Junit test cases locally.
 
 Make sure your tests are all green ✅ locally before submitting PRs.
 
